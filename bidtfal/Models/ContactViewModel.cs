@@ -17,8 +17,5 @@ namespace bidtfal.Models
                 return _contributorRepository.GetContributors();
             }
         }
-
-        public string test { get; set; }
-
     }
 }
