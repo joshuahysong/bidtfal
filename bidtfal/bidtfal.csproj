@@ -148,6 +148,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\ContactLink.cs" />
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Models\Contributor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

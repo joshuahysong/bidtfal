@@ -1,9 +1,9 @@
-﻿@model bidtfal.Models.Contributor[]
+﻿@model bidtfal.Models.ContactViewModel
 @{
     ViewBag.Title = "Contact";
 }
 
-@foreach (var contributor in Model)
+@foreach(var contributor in @Model.Contributors)
 {
     <div class="row" style="margin-top: 10px">
         <div class="col-md-4">
@@ -17,7 +17,7 @@
                 <ul>
                     @foreach (var contactLink in contributor.ContactLinks)
                     {
-                        <li>@Html.Raw(contactLink.GetContactLinkHtml)</li>
+                        <li><a href="@contactLink.LinkUrl">@contactLink.LinkText</a></li>
                     }
                 </ul>
             </div>

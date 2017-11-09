@@ -9,13 +9,5 @@ namespace bidtfal.Models
     {
         public string LinkText { get; set; }
         public string LinkUrl { get; set; }
-
-        public string GetContactLinkHtml
-        {
-            get
-            {
-                return "<a href=\"" + LinkUrl + "\">" + LinkText + "</a>";
-            }
-        }
     }
 }
