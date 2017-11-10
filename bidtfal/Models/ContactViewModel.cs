@@ -8,14 +8,7 @@ namespace bidtfal.Models
 {
     public class ContactViewModel
     {
-       static ContributorRepository _contributorRepository = new ContributorRepository();
 
-        public Contributor[] Contributors
-        {
-            get
-            {
-                return _contributorRepository.GetContributors();
-            }
-        }
+        public List<Contributor> Contributors { get; set; }
     }
 }

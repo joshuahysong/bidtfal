@@ -26,6 +26,7 @@ namespace bidtfal.Controllers
         public ActionResult Contact()
         {
             ContactViewModel contacts = new ContactViewModel();
+            contacts.Contributors = ContributorRepository.GetContributors();
             return View(contacts);
         }
     }

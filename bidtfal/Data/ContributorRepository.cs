@@ -1,4 +1,5 @@
 ﻿using bidtfal.Models;
+using bidtfal.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,11 +7,13 @@ using System.Web;
 
 namespace bidtfal.Data
 {
-    public class ContributorRepository
+    public static class ContributorRepository
     {
-        private static Contributor[] _contributors = new Contributor[]
+        private static List<Contributor> _contributorsList = new List<Contributor>();
+
+         public static List<Contributor> GetContributors()
         {
-            new Contributor()
+            _contributorsList.Add(new Contributor()
             {
                 Name = "Bob Ballew",
                 ContactLinks = new ContactLink[]
@@ -19,8 +22,9 @@ namespace bidtfal.Data
                     new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/bobballew" },
                     new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/BobBallew" }
                 }
-            },
-            new Contributor()
+            });
+
+            _contributorsList.Add(new Contributor()
             {
                 Name = "Joshua Hysong",
                 ContactLinks = new ContactLink[]
@@ -28,8 +32,8 @@ namespace bidtfal.Data
                     new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/joshuahysong" },
                     new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/joshuahysong" }
                 }
-            },
-            new Contributor()
+            });
+            _contributorsList.Add(new Contributor()
             {
                 Name = "Nathaniel Hysong",
                 ContactLinks = new ContactLink[]
@@ -37,12 +41,11 @@ namespace bidtfal.Data
                     new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/locketnathaniel" },
                     new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/nathanielhysong" }
                 }
-            },
-        };
+            });
 
-        public Contributor[] GetContributors()
-        {
-            return _contributors;
-        }
-    }
-}
+            return _contributorsList;
+        }//end of GetContributors
+       
+       
+    }//end of class
+}//end of namespace
