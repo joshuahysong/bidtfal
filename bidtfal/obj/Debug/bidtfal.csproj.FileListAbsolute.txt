@@ -40,3 +40,44 @@ E:\Code\bidtfal\bidtfal\obj\Debug\bidtfal.csprojResolveAssemblyReference.cache
 E:\Code\bidtfal\bidtfal\obj\Debug\bidtfal.csproj.CoreCompileInputs.cache
 E:\Code\bidtfal\bidtfal\obj\Debug\bidtfal.dll
 E:\Code\bidtfal\bidtfal\obj\Debug\bidtfal.pdb
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\ApplicationInsights.config
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\bidtfal.dll.config
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\bidtfal.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\bidtfal.pdb
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Antlr3.Runtime.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.Web.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Newtonsoft.Json.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Helpers.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Mvc.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Optimization.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Razor.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.Razor.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\WebGrease.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Helpers.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Mvc.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Optimization.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.Razor.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\System.Web.WebPages.Razor.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Antlr3.Runtime.pdb
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Newtonsoft.Json.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\bin\Microsoft.AI.Web.xml
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\obj\Debug\bidtfal.csprojResolveAssemblyReference.cache
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\obj\Debug\bidtfal.dll
+C:\Users\BoB\Documents\Visual Studio 2015\Projects\bidtfal\bidtfal\obj\Debug\bidtfal.pdb

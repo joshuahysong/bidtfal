@@ -1,4 +1,6 @@
-﻿using System;
+﻿using bidtfal.Data;
+using bidtfal.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,6 +10,7 @@ namespace bidtfal.Controllers
 {
     public class HomeController : Controller
     {
+        
         public ActionResult Index()
         {
             return View();
@@ -22,9 +25,9 @@ namespace bidtfal.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            ContactViewModel contacts = new ContactViewModel();
+            contacts.Contributors = ContributorRepository.GetContributors();
+            return View(contacts);
         }
     }
 }

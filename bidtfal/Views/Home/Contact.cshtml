@@ -1,17 +1,27 @@
-﻿@{
+﻿@model bidtfal.Models.ContactViewModel
+@{
     ViewBag.Title = "Contact";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+@foreach(var contributor in @Model.Contributors)
+{
+    <div class="row" style="margin-top: 10px">
+        <div class="col-md-4">
+            <img src="/Images/@contributor.ImageFileName"
+                 alt="@contributor.Name"
+                 class="img-responsive" />
+        </div>
+        <div class="col-md-3">
+            <div class="well">
+                <h4>@contributor.Name</h4>
+                <ul>
+                    @foreach (var contactLink in contributor.ContactLinks)
+                    {
+                        <li><a href="@contactLink.LinkUrl">@contactLink.LinkText</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-5"></div>
+    </div>
+}
