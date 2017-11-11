@@ -1,15 +1,15 @@
 ﻿@model bidtfal.Models.ContactViewModel
+@using bidtfal.Models;
 @{
     ViewBag.Title = "Contact";
 }
-
-@foreach(var contributor in @Model.Contributors)
+@foreach (Contributor contributor in @Model.Contributors)
 {
     <div class="row" style="margin-top: 10px">
         <div class="col-md-4">
             <img src="/Images/@contributor.ImageFileName"
-                 alt="@contributor.Name"
-                 class="img-responsive" />
+                    alt="@contributor.Name"
+                    class="img-responsive" />
         </div>
         <div class="col-md-3">
             <div class="well">
@@ -25,3 +25,4 @@
         <div class="col-md-5"></div>
     </div>
 }
+    

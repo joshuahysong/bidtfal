@@ -10,8 +10,17 @@ namespace bidtfal.Data
     public static class ContributorRepository
     {
         private static List<Contributor> _contributorsList = new List<Contributor>();
+        
+        public static List<Contributor> GetContributors()
+        {
+            if (_contributorsList.Count == 0)
+            {
+                LoadList();
+            }
+            return _contributorsList;
+        }//end of GetContributors  
 
-         public static List<Contributor> GetContributors()
+        private static void LoadList()
         {
             _contributorsList.Add(new Contributor()
             {
@@ -29,8 +38,8 @@ namespace bidtfal.Data
                 Name = "Joshua Hysong",
                 ContactLinks = new ContactLink[]
                 {
-                    new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/joshuahysong" },
-                    new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/joshuahysong" }
+                new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/joshuahysong" },
+                new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/joshuahysong" }
                 }
             });
             _contributorsList.Add(new Contributor()
@@ -38,14 +47,10 @@ namespace bidtfal.Data
                 Name = "Nathaniel Hysong",
                 ContactLinks = new ContactLink[]
                 {
-                    new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/locketnathaniel" },
-                    new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/nathanielhysong" }
+                new ContactLink {LinkText = "Twitter", LinkUrl = "https://twitter.com/locketnathaniel" },
+                new ContactLink {LinkText = "GitHub", LinkUrl = "https://github.com/nathanielhysong" }
                 }
             });
-
-            return _contributorsList;
-        }//end of GetContributors
-       
-       
+        }//end of LoadList
     }//end of class
 }//end of namespace
