@@ -6,12 +6,12 @@
 @foreach (Contributor contributor in @Model.Contributors)
 {
     <div class="row" style="margin-top: 10px">
-        <div class="col-md-4">
+        <div class="col-sm-4">
             <img src="/Images/@contributor.ImageFileName"
                     alt="@contributor.Name"
                     class="img-responsive" />
         </div>
-        <div class="col-md-3">
+        <div class="col-sm-3">
             <div class="well">
                 <h4>@contributor.Name</h4>
                 <ul>
@@ -22,7 +22,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-5"></div>
+        <div class="col-sm-5"></div>
     </div>
 }
     
