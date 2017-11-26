@@ -10,8 +10,6 @@ namespace bidtfal.Controllers
 {
     public class HomeController : Controller
     {
-        public static bool IsContactLoaded = false;
-
         public ActionResult Index()
         {
             return View();
