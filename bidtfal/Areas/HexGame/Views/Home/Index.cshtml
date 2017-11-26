@@ -1,17 +1,27 @@
-﻿
-@{
-    Layout = null;
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
-<body>
-    <div> 
+@Styles.Render("~/Areas/HexGame/Content/style.css")
+<div class="container">
+    <div>
+        <h1>Hex Grid Test</h1>
     </div>
-</body>
-</html>
+    <div class="board">
+        <div class="hex-row">
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+            <div class="hex even"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+        </div>
+        <div class="hex-row">
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+            <div class="hex even"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+        </div>
+        <div class="hex-row">
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+            <div class="hex even"><div class="left"></div><div class="middle rotate">Test</div><div class="right"></div></div>
+            <div class="hex"><div class="left"></div><div class="middle"></div><div class="right"></div></div>
+        </div>
+    </div>
+</div>
