@@ -142,6 +142,8 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\HexGame\Controllers\HomeController.cs" />
+    <Compile Include="Areas\HexGame\HexGameAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Data\ContributorRepository.cs" />
     <Compile Include="Global.asax.cs">
@@ -167,6 +169,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Areas\HexGame\Views\web.config" />
+    <Content Include="Areas\HexGame\Views\Home\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -195,6 +199,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\HexGame\Models\" />
+    <Folder Include="Areas\HexGame\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
